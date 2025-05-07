@@ -1,14 +1,7 @@
-# TCExam - README
+# TCExam
 
-------------------------------------------------------
+**Computer-Based Assessment Software**
 
-FOR ANY USAGE THAT REQUIRES COMMERCIAL LICENSING TERMS,
-PLEASE CONTACT INFO@TECNICK.COM TO PURCHASE A LICENSE.
-
-------------------------------------------------------
-
-* Name: TCExam
-* Author: Nicola Asuni
 * URLs:
 	* http://www.tcexam.org
 	* https://github.com/tecnickcom/tcexam
@@ -20,7 +13,7 @@ PLEASE CONTACT INFO@TECNICK.COM TO PURCHASE A LICENSE.
 * Support - Help:
 	Please use support Issues at https://github.com/tecnickcom/tcexam
 * Software License:
-	* Copyright (C) 2004-2022 Nicola Asuni - Tecnick.com LTD
+	* Copyright (C) 2004-2025 Nicola Asuni - Tecnick.com LTD
 	* See LICENSE.TXT file for more information.
 
 
@@ -30,7 +23,8 @@ PLEASE CONTACT INFO@TECNICK.COM TO PURCHASE A LICENSE.
 
 ## Third-party Software
 
-TCExam includes some third-party software components that are not strictly required but have been included as your convenience, and if used are subject to their respective licenses.
+TCExam includes some third-party software components that are not strictly required but have been included as your convenience,
+and if used are subject to their respective licenses:
 
 * **PHPMailer**
     * Full Featured Email Transfer Class for PHP.
@@ -65,6 +59,13 @@ TCExam includes some third-party software components that are not strictly requi
     * Homepage: https://wiki.jasig.org/display/CASC/phpCAS
     * License: Apache License, Version 2.0 http://www.apache.org/licenses/LICENSE-2.0
     * Location: /shared/cas/
+
+* **TCPDF**
+    * TCPDF library to generate PDF documents.
+    * Copyright 2002-2025 Nicola Asuni - Tecnick.com LTD
+    * Homepage: https://tcpdf.org
+    * License: LGPL (GNU LESSER GENERAL PUBLIC LICENSE)
+    * Location: /shared/tcpdf/
 
 * **Fonts**
 
@@ -161,10 +162,3 @@ cheating on the test.
 generate printable PDF documents for pen-and-paper testing. The OMR answer
 sheet can be scanned and uploaded to TCExam for automatic test importing,
 scoring and reporting.
-
-* **Security**: TCExam is more secure than traditional Pen-and-Paper testing.
-It supports SSL (Secure Socket Layer) encryption and includes various
-authentication levels to discriminate the access to the various sections
-(user/password, access level, group, IP address). Test time, test activity,
-results, and statistics: every part of the test is managed and stored in the
-server, leaving no sensitive data in the users’ client computers.

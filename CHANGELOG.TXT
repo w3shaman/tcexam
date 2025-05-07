@@ -1,3 +1,24 @@
+16.3.7 (2025-01-26)
+	- Updated TCPDF.
+
+16.3.6 (2024-12-24)
+	- Updated TCPDF.
+
+16.3.5 (2024-12-13)
+	- Replace utf8_encode() with mb_convert_encoding().
+
+16.3.4 (2024-12-13)
+	- Patched security issues.
+	- Updated TCPDF.
+
+16.3.1 (2024-03-24)
+	- Updated documentation and licensing information.
+	- Updated TCPDF.
+	- Format code.
+	- Requires PHP 8.0+
+	- Minor fixes.
+	- Updated Spanish translation.
+
 15.0.0 (2022-12-17)
 	- Updated database tce_tests.test_repeatable column to support numeric values.
 	- Test repeatability can now be limited to a fixed value.
